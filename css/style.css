@@ -25,68 +25,21 @@ body {
     position: relative;
 }
 
-.section-grey {
-    background-color: rgb(36, 36, 36);
-}
-
-.section__heading {
-    font-size: 2.5rem;
-    line-height: 1;
-}
-
-.section__text {
-    font-size: 1rem;
-    line-height: 1.625;
-    color: rgb(217, 217, 217);
-}
-
-.section__link {
-    font-size: 1rem;
-    line-height: 1.2;
-    display: inline-block;
-    border-bottom: 0.125rem solid rgb(78, 225, 160);
-    color: #fff;
-    text-decoration: none;
-    padding-bottom: 0.3125rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.1437rem;
-    transition: all 0.2s ease;
-    cursor: pointer;
-}
-
-.section__link:hover {
-    color: rgb(78, 225, 160);
-}
-
-.section__img {
-    width: 100%;
-}
 
 @media (min-width: 34.375rem) {
-    .section__text {
-        font-size: 1.125rem;
-        line-height: 1.55;
-    }
+
 }
 
 @media (min-width: 41.25rem) {
-    .section__heading {
-        font-size: 3.5rem;
-        line-height: 1;
-    }
+
 }
 
 @media (min-width: 46.25rem) {
-    .section__heading {
-        font-size: 4.5rem;
-    }
+
 }
 
 @media (min-width: 69.375rem) {
-    .section__heading {
-        font-size: 5.5rem;
-    }
+
 }
 
 /* End Sections Styling */
@@ -102,22 +55,8 @@ body {
     gap: 1.25rem;
 }
 
-.nav--positioned {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
-}
-
 .nav__logo {
-    position: fixed;
-    left: 0;
-    width: 250px;
-    height: auto;
-/*    font-size: 1.5rem;
-    line-height: 1.33;
-    font-weight: 700;
-    text-align: center;*/
+
 }
 
 .nav__icon-container {
@@ -142,7 +81,7 @@ body {
     }
 
     .nav__logo {
-        font-size: 0.75rem;
+  
     }
 
     .nav__icon-container {
